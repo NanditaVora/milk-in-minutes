@@ -1,0 +1,207 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "milk",
+      "productName": "Bottled Milk",
+      "description": "500ml bottle pack",
+      "price": "30",
+      "image": "milk_383445745",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": 2,
+      "category": "milk",
+      "productName": "Milk Bottles",
+      "description": "3 x 500ml bottle pack",
+      "price": "110",
+      "image": "milk_bottles_379768576",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": 3,
+      "category": "milk",
+      "productName": "Milk Tetra Pack",
+      "description": "1 litre bottle pack",
+      "price": "100",
+      "image": "milk_tetra_pack_1913110618",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": 4,
+      "category": "butter",
+      "productName": "Salted Butter",
+      "description": "100gm packet",
+      "price": "50",
+      "image": "butter_1720459897",
+      "nutritionalValue": "rich in sodium and calcium. good for joints"
+    },
+    {
+      "id": 5,
+      "category": "buttermilk",
+      "productName": "Plain Buttermilk",
+      "description": "500ml pack",
+      "price": "20",
+      "image": "buttermilk_1035426676",
+      "nutritionalValue": "rich in calcium. low calories. improves metabolism"
+    },
+    {
+      "id": 6,
+      "category": "cheese",
+      "productName": "Cheese Cubes",
+      "description": "pack of 6 cubes",
+      "price": "80",
+      "image": "cheese_cubes_2022301889",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": 7,
+      "category": "cheese",
+      "productName": "Cheese Slice",
+      "description": "pack of 5 slices",
+      "price": "60",
+      "image": "cheese_sliced_2023829054",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": 8,
+      "category": "cheese",
+      "productName": "Cheese Spread",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "cheese_spread_1147342694",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": 9,
+      "category": "milk",
+      "productName": "Cow Milk",
+      "description": "500ml bottle pack",
+      "price": "32",
+      "image": "cow_milk_1059442148",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": 10,
+      "category": "milk",
+      "productName": "Cow Milk Tetra Pack",
+      "description": "1 litre tetra pack",
+      "price": "60",
+      "image": "cow_milk_tetra_pack_529383721",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": 11,
+      "category": "curd",
+      "productName": "Plain Curd",
+      "description": "500gm pack",
+      "price": "25",
+      "image": "curd_1890391171",
+      "nutritionalValue": "rich in calcium. good for bones. improves metabolism"
+    },
+    {
+      "id": 12,
+      "category": "cream",
+      "productName": "Fresh Cream",
+      "description": "500gm pack",
+      "price": "200",
+      "image": "fresh_cream_122525881",
+      "nutritionalValue": "rich in protein and calcium. good for bones"
+    },
+    {
+      "id": 13,
+      "category": "yogurt",
+      "productName": "Fruit Yogurt",
+      "description": "500gm pack",
+      "price": "60",
+      "image": "fruit_yogurt_1370687513",
+      "nutritionalValue": "high fibre, high protein, rich in calcium"
+    },
+    {
+      "id": 14,
+      "category": "ghee",
+      "productName": "Cow Ghee",
+      "description": "250gm pack",
+      "price": "100",
+      "image": "ghee_398833717",
+      "nutritionalValue": "rich in calcium, protein."
+    },
+    {
+      "id": 15,
+      "category": "yogurt",
+      "productName": "Healthy Yogurt",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "healthy_yogurt_367620590",
+      "nutritionalValue": "rich in calcium"
+    },
+    {
+      "id": 16,
+      "category": "butter",
+      "productName": "White Butter",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "homemade_white_butter_1463237894",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": 17,
+      "category": "paneer",
+      "productName": "Paneer - Cottage Cheese",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "paneer_516479764",
+      "nutritionalValue": "rich in protein, calcium. increases good cholesterol"
+    },
+    {
+      "id": 18,
+      "category": "butter",
+      "productName": "Peanut Butter",
+      "description": "250gm pack",
+      "price": "200",
+      "image": "peanut_butter_316086323",
+      "nutritionalValue": "rich in protein, good for hair and eyes"
+    },
+    {
+      "id": 19,
+      "category": "yogurt",
+      "productName": "Plain Yogurt - Sweet",
+      "description": "150gm pack",
+      "price": "30",
+      "image": "plain_yogurt_1333497695",
+      "nutritionalValue": "rich in calcium, fiber and proteins"
+    }
+  ],
+  "orders": [
+    {
+      "firstName": "Nandita",
+      "address": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
+      "productName": "Plain Buttermilk",
+      "city": "Mumbai",
+      "contact": "9920998416",
+      "deliveryDate": "2023-03-07T06:02:20.367Z",
+      "email": "nandita.vora@stackroute.in",
+      "lastName": "Vora",
+      "postalCode": "40006",
+      "quantity": 1,
+      "state": "Maharashtra",
+      "middleName": "Mihir",
+      "id": 1
+    },
+    {
+      "firstName": "Nandita",
+      "address": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
+      "productName": "Cheese Slice",
+      "city": "Mumbai",
+      "contact": "9920998416",
+      "deliveryDate": "2023-03-07T06:07:52.279Z",
+      "email": "nandita.vora@stackroute.in",
+      "lastName": "Vora",
+      "postalCode": "40006",
+      "quantity": 2,
+      "state": "Maharashtra",
+      "middleName": "Mihir",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<mat-toolbar id="toolbar" color="primary">
+  <a routerLink="/"><h1 id="heading">Milk in Minutes</h1></a>
+  <!-- <app-search (searchTextChanged)="onSearchTextChanged($event)"></app-search> -->
+  <div id="info">
+    <h6 id="address">
+      <div><mat-icon color="accent" class="address_icons">mail</mat-icon>Shop No. 10, Palm Springs, CA - 92838 </div>
+      <div><mat-icon color="accent" class="address_icons">phone</mat-icon>+12653429876</div>
+    </h6>
+    <nav id="navbar">
+      <mat-icon routerLink="" color="accent" class="navbar_icons">home</mat-icon>
+      <mat-icon color="accent" class="navbar_icons">shopping_cart</mat-icon>
+    </nav>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

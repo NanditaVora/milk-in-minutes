@@ -1,0 +1,15 @@
+<mat-card class="product-card">
+    <mat-card-header>
+        <mat-card-subtitle class="product-name">{{product.productName}}</mat-card-subtitle>
+      </mat-card-header>
+    <img mat-card-image src="../../assets/images/{{product.image}}.jpg">
+    <mat-card-content>
+        <h5>{{product.nutritionalValue}}</h5>
+        <h5>Rs.{{product.price}}/- for {{product.description}}</h5>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-icon-button><mat-icon color="warn">favorite</mat-icon></button>
+        <button mat-icon-button><mat-icon color="primary" routerLink="/cart/{{product.id}}">shopping_cart</mat-icon></button>
+      </mat-card-actions>
+</mat-card>
+

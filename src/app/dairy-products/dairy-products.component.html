@@ -1,0 +1,44 @@
+<mat-card id="browse-all-button">
+    
+    <mat-card-subtitle id="category-title">
+        You are viewing products in {{category}} category
+        <app-search (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+    </mat-card-subtitle>
+</mat-card>
+<div id="product-container">
+    <mat-card id="category-card">
+        <mat-card-header>
+            <mat-card-subtitle id="category-title">Categories</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content mat-card-image id="categories">
+            <ul id="category-list">
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'milk'}">Milk</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'buttermilk'}">Buttermilk</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'butter'}">Butter</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'curd'}">Curd</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'cheese'}">Cheese</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'ghee'}">Ghee</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'paneer'}">Paneer</a></li>
+                <li><a [routerLink]="['/dairy-products']" [queryParams]="{category:'yogurt'}">Yogurt</a></li>
+                <li><a [routerLink]="['/dairy-products']"><b>All</b></a></li>
+            </ul>
+            <ul>
+                <li>Delivery in less than 60 minutes</li>
+            </ul>
+            <ul>
+                <li>No Advance Payment</li>
+            </ul>
+            <ul>
+                <li>Coming Soon... </li>
+                <li>Fruits and Veggies at your doorstep</li>
+            </ul>
+        </mat-card-content>
+    </mat-card>
+    
+    <div id="products">
+        <app-dairy-product *ngFor="let product of products" [product]="product">
+
+        </app-dairy-product>
+    </div>
+    
+</div>

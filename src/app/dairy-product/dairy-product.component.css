@@ -1,0 +1,17 @@
+.product-card {
+    max-width: 180px;
+    margin: 20px 10px;
+    background-color: lightgrey;
+    color: #7b1fa2;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product-name {
+    color: #7b1fa2;
+    font-weight: 600;
+}
+
+.product-card>img {
+    height: 180px;
+}

@@ -1,0 +1,6 @@
+<mat-form-field id="search-box"  appearance="fill">
+    <mat-label id="search-label">Search Product</mat-label>
+    <mat-icon  color="primary" matSuffix>search</mat-icon>
+    <!-- <mat-hint>Enter Product Name to Search</mat-hint> -->
+    <input matInput (input)="search()" [(ngModel)]="productName">
+</mat-form-field>
