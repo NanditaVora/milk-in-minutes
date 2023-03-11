@@ -172,36 +172,5 @@
       "nutritionalValue": "rich in calcium, fiber and proteins"
     }
   ],
-  "orders": [
-    {
-      "firstName": "Nandita",
-      "address": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
-      "productName": "Plain Buttermilk",
-      "city": "Mumbai",
-      "contact": "9920998416",
-      "deliveryDate": "2023-03-07T06:02:20.367Z",
-      "email": "nandita.vora@stackroute.in",
-      "lastName": "Vora",
-      "postalCode": "40006",
-      "quantity": 1,
-      "state": "Maharashtra",
-      "middleName": "Mihir",
-      "id": 1
-    },
-    {
-      "firstName": "Nandita",
-      "address": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
-      "productName": "Cheese Slice",
-      "city": "Mumbai",
-      "contact": "9920998416",
-      "deliveryDate": "2023-03-07T06:07:52.279Z",
-      "email": "nandita.vora@stackroute.in",
-      "lastName": "Vora",
-      "postalCode": "40006",
-      "quantity": 2,
-      "state": "Maharashtra",
-      "middleName": "Mihir",
-      "id": 2
-    }
-  ]
+  "orders": []
 }
